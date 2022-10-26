@@ -61,6 +61,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let cell = tableOfPersonDetail.dequeueReusableCell(withIdentifier: "cellOfDetails", for: indexPath) as! PersonalDetailCell
         cell.personImageView.image = content[indexPath.row].personImage
         cell.personImageView.backgroundColor = UIColor.lightGray
+        cell.personImageView.layer.cornerRadius = 8
         cell.nameLabel.text = content[indexPath.row].name
         cell.dOBLabel.text = content[indexPath.row].dOB
         cell.genderLabel.text = content[indexPath.row].gender
