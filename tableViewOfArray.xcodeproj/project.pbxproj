@@ -14,6 +14,7 @@
 		5120DA1E290786B30089F7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5120DA1D290786B30089F7D3 /* Assets.xcassets */; };
 		5120DA21290786B30089F7D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5120DA1F290786B30089F7D3 /* LaunchScreen.storyboard */; };
 		51735FD429083A9300305371 /* PersonalDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51735FD329083A9300305371 /* PersonalDetailCell.swift */; };
+		51C8E905290C6E9900EBF699 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C8E904290C6E9900EBF699 /* SecondPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5120DA20290786B30089F7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5120DA22290786B30089F7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51735FD329083A9300305371 /* PersonalDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailCell.swift; sourceTree = "<group>"; };
+		51C8E904290C6E9900EBF699 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				5120DA16290786B00089F7D3 /* SceneDelegate.swift */,
 				5120DA18290786B00089F7D3 /* ViewController.swift */,
 				51735FD329083A9300305371 /* PersonalDetailCell.swift */,
+				51C8E904290C6E9900EBF699 /* SecondPageViewController.swift */,
 				5120DA1A290786B00089F7D3 /* Main.storyboard */,
 				5120DA1D290786B30089F7D3 /* Assets.xcassets */,
 				5120DA1F290786B30089F7D3 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				5120DA15290786B00089F7D3 /* AppDelegate.swift in Sources */,
 				51735FD429083A9300305371 /* PersonalDetailCell.swift in Sources */,
 				5120DA17290786B00089F7D3 /* SceneDelegate.swift in Sources */,
+				51C8E905290C6E9900EBF699 /* SecondPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
